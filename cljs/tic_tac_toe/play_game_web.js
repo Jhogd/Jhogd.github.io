@@ -60,22 +60,22 @@ return tic_tac_toe.play_game_web.update_board(cljs.core.cst$kw$game_DASH_type,cl
 }))], null)], null);
 });
 tic_tac_toe.play_game_web.select_difficulty = (function tic_tac_toe$play_game_web$select_difficulty(ai_number,ai_keyword){
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$p,new cljs.core.PersistentVector(null, 15, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$strong,["Select a difficulty for: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(ai_number)].join(''),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"easy"], null),tic_tac_toe.play_game_web.input_field("mode",(1),(function (){
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$p,new cljs.core.PersistentVector(null, 15, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$strong,["Select a difficulty for: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(ai_number)].join(''),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"easy"], null),tic_tac_toe.play_game_web.input_field("diff",(1),(function (){
 return tic_tac_toe.play_game_web.update_map(ai_keyword,(1));
-})),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"medium"], null),tic_tac_toe.play_game_web.input_field("mode",(2),(function (){
+})),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"medium"], null),tic_tac_toe.play_game_web.input_field("diff",(2),(function (){
 return tic_tac_toe.play_game_web.update_map(ai_keyword,(2));
-})),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"unbeatable"], null),tic_tac_toe.play_game_web.input_field("mode",(3),(function (){
+})),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"unbeatable"], null),tic_tac_toe.play_game_web.input_field("diff",(3),(function (){
 return tic_tac_toe.play_game_web.update_map(ai_keyword,(3));
-})),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"NA"], null),tic_tac_toe.play_game_web.input_field("mode",(0),(function (){
+})),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"NA"], null),tic_tac_toe.play_game_web.input_field("diff",(0),(function (){
 return tic_tac_toe.play_game_web.update_map(ai_keyword,(0));
 }))], null)], null);
 });
 tic_tac_toe.play_game_web.select_player_menu = (function tic_tac_toe$play_game_web$select_player_menu(){
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$p,new cljs.core.PersistentVector(null, 12, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$strong,"Select a player: ",new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"X"], null),tic_tac_toe.play_game_web.input_field("mode",cljs.core.cst$kw$x,(function (){
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$p,new cljs.core.PersistentVector(null, 12, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$strong,"Select a player: ",new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"X"], null),tic_tac_toe.play_game_web.input_field("player",cljs.core.cst$kw$x,(function (){
 return tic_tac_toe.play_game_web.update_board(cljs.core.cst$kw$user_DASH_player,cljs.core.cst$kw$x);
-})),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"O"], null),tic_tac_toe.play_game_web.input_field("mode",cljs.core.cst$kw$o,(function (){
+})),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"O"], null),tic_tac_toe.play_game_web.input_field("player",cljs.core.cst$kw$o,(function (){
 return tic_tac_toe.play_game_web.update_board(cljs.core.cst$kw$user_DASH_player,cljs.core.cst$kw$o);
-})),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"NA"], null),tic_tac_toe.play_game_web.input_field("mode",cljs.core.cst$kw$x,(function (){
+})),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$br], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$label,"NA"], null),tic_tac_toe.play_game_web.input_field("player",cljs.core.cst$kw$x,(function (){
 return tic_tac_toe.play_game_web.update_board(cljs.core.cst$kw$user_DASH_player,cljs.core.cst$kw$x);
 }))], null)], null);
 });
@@ -85,8 +85,8 @@ tic_tac_toe.play_game_web.create_square = (function (){var method_table__4619__a
 var prefer_table__4620__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var method_cache__4621__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var cached_hierarchy__4622__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-var hierarchy__4623__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.cst$kw$hierarchy,(function (){var fexpr__6047 = cljs.core.get_global_hierarchy;
-return (fexpr__6047.cljs$core$IFn$_invoke$arity$0 ? fexpr__6047.cljs$core$IFn$_invoke$arity$0() : fexpr__6047.call(null));
+var hierarchy__4623__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.cst$kw$hierarchy,(function (){var fexpr__6066 = cljs.core.get_global_hierarchy;
+return (fexpr__6066.cljs$core$IFn$_invoke$arity$0 ? fexpr__6066.cljs$core$IFn$_invoke$arity$0() : fexpr__6066.call(null));
 })());
 return (new cljs.core.MultiFn(cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("tic-tac-toe.play-game-web","create-square"),cljs.core.cst$kw$human_DASH_turn_QMARK_,cljs.core.cst$kw$default,hierarchy__4623__auto__,method_table__4619__auto__,prefer_table__4620__auto__,method_cache__4621__auto__,cached_hierarchy__4622__auto__));
 })();
@@ -105,28 +105,28 @@ return tic_tac_toe.play_game_web.update_game_state(tic_tac_toe.play_game_web.pla
 }));
 tic_tac_toe.play_game_web.create_row = (function tic_tac_toe$play_game_web$create_row(board,row_number){
 var size = cljs.core.cst$kw$size.cljs$core$IFn$_invoke$arity$1(board);
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr,(function (){var iter__4529__auto__ = (function tic_tac_toe$play_game_web$create_row_$_iter__6048(s__6049){
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr,(function (){var iter__4529__auto__ = (function tic_tac_toe$play_game_web$create_row_$_iter__6067(s__6068){
 return (new cljs.core.LazySeq(null,(function (){
-var s__6049__$1 = s__6049;
+var s__6068__$1 = s__6068;
 while(true){
-var temp__5804__auto__ = cljs.core.seq(s__6049__$1);
+var temp__5804__auto__ = cljs.core.seq(s__6068__$1);
 if(temp__5804__auto__){
-var s__6049__$2 = temp__5804__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__6049__$2)){
-var c__4527__auto__ = cljs.core.chunk_first(s__6049__$2);
+var s__6068__$2 = temp__5804__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__6068__$2)){
+var c__4527__auto__ = cljs.core.chunk_first(s__6068__$2);
 var size__4528__auto__ = cljs.core.count(c__4527__auto__);
-var b__6051 = cljs.core.chunk_buffer(size__4528__auto__);
-if((function (){var i__6050 = (0);
+var b__6070 = cljs.core.chunk_buffer(size__4528__auto__);
+if((function (){var i__6069 = (0);
 while(true){
-if((i__6050 < size__4528__auto__)){
-var pos = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4527__auto__,i__6050);
-cljs.core.chunk_append(b__6051,(function (){var G__6052 = cljs.core.deref(tic_tac_toe.play_game_web.game_map);
-var G__6053 = ((row_number * size) + pos);
-return (tic_tac_toe.play_game_web.create_square.cljs$core$IFn$_invoke$arity$2 ? tic_tac_toe.play_game_web.create_square.cljs$core$IFn$_invoke$arity$2(G__6052,G__6053) : tic_tac_toe.play_game_web.create_square.call(null,G__6052,G__6053));
+if((i__6069 < size__4528__auto__)){
+var pos = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4527__auto__,i__6069);
+cljs.core.chunk_append(b__6070,(function (){var G__6071 = cljs.core.deref(tic_tac_toe.play_game_web.game_map);
+var G__6072 = ((row_number * size) + pos);
+return (tic_tac_toe.play_game_web.create_square.cljs$core$IFn$_invoke$arity$2 ? tic_tac_toe.play_game_web.create_square.cljs$core$IFn$_invoke$arity$2(G__6071,G__6072) : tic_tac_toe.play_game_web.create_square.call(null,G__6071,G__6072));
 })());
 
-var G__6056 = (i__6050 + (1));
-i__6050 = G__6056;
+var G__6075 = (i__6069 + (1));
+i__6069 = G__6075;
 continue;
 } else {
 return true;
@@ -134,16 +134,16 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__6051),tic_tac_toe$play_game_web$create_row_$_iter__6048(cljs.core.chunk_rest(s__6049__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__6070),tic_tac_toe$play_game_web$create_row_$_iter__6067(cljs.core.chunk_rest(s__6068__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__6051),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__6070),null);
 }
 } else {
-var pos = cljs.core.first(s__6049__$2);
-return cljs.core.cons((function (){var G__6054 = cljs.core.deref(tic_tac_toe.play_game_web.game_map);
-var G__6055 = ((row_number * size) + pos);
-return (tic_tac_toe.play_game_web.create_square.cljs$core$IFn$_invoke$arity$2 ? tic_tac_toe.play_game_web.create_square.cljs$core$IFn$_invoke$arity$2(G__6054,G__6055) : tic_tac_toe.play_game_web.create_square.call(null,G__6054,G__6055));
-})(),tic_tac_toe$play_game_web$create_row_$_iter__6048(cljs.core.rest(s__6049__$2)));
+var pos = cljs.core.first(s__6068__$2);
+return cljs.core.cons((function (){var G__6073 = cljs.core.deref(tic_tac_toe.play_game_web.game_map);
+var G__6074 = ((row_number * size) + pos);
+return (tic_tac_toe.play_game_web.create_square.cljs$core$IFn$_invoke$arity$2 ? tic_tac_toe.play_game_web.create_square.cljs$core$IFn$_invoke$arity$2(G__6073,G__6074) : tic_tac_toe.play_game_web.create_square.call(null,G__6073,G__6074));
+})(),tic_tac_toe$play_game_web$create_row_$_iter__6067(cljs.core.rest(s__6068__$2)));
 }
 } else {
 return null;
@@ -160,25 +160,25 @@ var board = cljs.core.cst$kw$board.cljs$core$IFn$_invoke$arity$1(cljs.core.deref
 var size = cljs.core.cst$kw$size.cljs$core$IFn$_invoke$arity$1(board);
 tic_tac_toe.play_game_web.update_map(cljs.core.cst$kw$human_DASH_turn_QMARK_,tic_tac_toe.algorithm.human_turn_QMARK_(cljs.core.cst$kw$board.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(tic_tac_toe.play_game_web.game_map)),cljs.core.cst$kw$player.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(tic_tac_toe.play_game_web.game_map)),cljs.core.cst$kw$user_DASH_player.cljs$core$IFn$_invoke$arity$1(cljs.core.cst$kw$board.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(tic_tac_toe.play_game_web.game_map)))));
 
-return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$style,new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$display,"flex",cljs.core.cst$kw$justify_DASH_content,"center",cljs.core.cst$kw$align_DASH_items,"center",cljs.core.cst$kw$height,"100vh"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$table,(function (){var iter__4529__auto__ = (function tic_tac_toe$play_game_web$create_game_board_$_iter__6057(s__6058){
+return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$style,new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$display,"flex",cljs.core.cst$kw$justify_DASH_content,"center",cljs.core.cst$kw$align_DASH_items,"center",cljs.core.cst$kw$height,"100vh"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$table,(function (){var iter__4529__auto__ = (function tic_tac_toe$play_game_web$create_game_board_$_iter__6076(s__6077){
 return (new cljs.core.LazySeq(null,(function (){
-var s__6058__$1 = s__6058;
+var s__6077__$1 = s__6077;
 while(true){
-var temp__5804__auto__ = cljs.core.seq(s__6058__$1);
+var temp__5804__auto__ = cljs.core.seq(s__6077__$1);
 if(temp__5804__auto__){
-var s__6058__$2 = temp__5804__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__6058__$2)){
-var c__4527__auto__ = cljs.core.chunk_first(s__6058__$2);
+var s__6077__$2 = temp__5804__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__6077__$2)){
+var c__4527__auto__ = cljs.core.chunk_first(s__6077__$2);
 var size__4528__auto__ = cljs.core.count(c__4527__auto__);
-var b__6060 = cljs.core.chunk_buffer(size__4528__auto__);
-if((function (){var i__6059 = (0);
+var b__6079 = cljs.core.chunk_buffer(size__4528__auto__);
+if((function (){var i__6078 = (0);
 while(true){
-if((i__6059 < size__4528__auto__)){
-var row = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4527__auto__,i__6059);
-cljs.core.chunk_append(b__6060,tic_tac_toe.play_game_web.create_row(cljs.core.cst$kw$board.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(tic_tac_toe.play_game_web.game_map)),row));
+if((i__6078 < size__4528__auto__)){
+var row = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4527__auto__,i__6078);
+cljs.core.chunk_append(b__6079,tic_tac_toe.play_game_web.create_row(cljs.core.cst$kw$board.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(tic_tac_toe.play_game_web.game_map)),row));
 
-var G__6061 = (i__6059 + (1));
-i__6059 = G__6061;
+var G__6080 = (i__6078 + (1));
+i__6078 = G__6080;
 continue;
 } else {
 return true;
@@ -186,13 +186,13 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__6060),tic_tac_toe$play_game_web$create_game_board_$_iter__6057(cljs.core.chunk_rest(s__6058__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__6079),tic_tac_toe$play_game_web$create_game_board_$_iter__6076(cljs.core.chunk_rest(s__6077__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__6060),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__6079),null);
 }
 } else {
-var row = cljs.core.first(s__6058__$2);
-return cljs.core.cons(tic_tac_toe.play_game_web.create_row(cljs.core.cst$kw$board.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(tic_tac_toe.play_game_web.game_map)),row),tic_tac_toe$play_game_web$create_game_board_$_iter__6057(cljs.core.rest(s__6058__$2)));
+var row = cljs.core.first(s__6077__$2);
+return cljs.core.cons(tic_tac_toe.play_game_web.create_row(cljs.core.cst$kw$board.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(tic_tac_toe.play_game_web.game_map)),row),tic_tac_toe$play_game_web$create_game_board_$_iter__6076(cljs.core.rest(s__6077__$2)));
 }
 } else {
 return null;
