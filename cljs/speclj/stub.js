@@ -26,8 +26,8 @@ speclj.stub.invoke_delegate = (function speclj$stub$invoke_delegate(name,delegat
 return cljs.core.apply.call(null,delegate,args);
 });
 speclj.stub.stub = (function speclj$stub$stub(var_args){
-var G__6066 = arguments.length;
-switch (G__6066) {
+var G__5243 = arguments.length;
+switch (G__5243) {
 case 1:
 return speclj.stub.stub.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -60,14 +60,14 @@ throw (new Error("stub's :invoke argument must be an ifn"));
 }
 
 return (function() { 
-var G__6068__delegate = function (args){
+var G__5245__delegate = function (args){
 speclj.stub._record_invocation.call(null,name,args);
 
 var result = (cljs.core.truth_(delegate)?speclj.stub.invoke_delegate.call(null,name,delegate,args):null);
-var temp__5804__auto___6069 = new cljs.core.Keyword(null,"throw","throw",-1044625833).cljs$core$IFn$_invoke$arity$1(options);
-if(cljs.core.truth_(temp__5804__auto___6069)){
-var throwable_6070 = temp__5804__auto___6069;
-throw throwable_6070;
+var temp__5804__auto___5246 = new cljs.core.Keyword(null,"throw","throw",-1044625833).cljs$core$IFn$_invoke$arity$1(options);
+if(cljs.core.truth_(temp__5804__auto___5246)){
+var throwable_5247 = temp__5804__auto___5246;
+throw throwable_5247;
 } else {
 }
 
@@ -77,21 +77,21 @@ return new cljs.core.Keyword(null,"return","return",-1891502105).cljs$core$IFn$_
 return result;
 }
 };
-var G__6068 = function (var_args){
+var G__5245 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__6071__i = 0, G__6071__a = new Array(arguments.length -  0);
-while (G__6071__i < G__6071__a.length) {G__6071__a[G__6071__i] = arguments[G__6071__i + 0]; ++G__6071__i;}
-  args = new cljs.core.IndexedSeq(G__6071__a,0,null);
+var G__5248__i = 0, G__5248__a = new Array(arguments.length -  0);
+while (G__5248__i < G__5248__a.length) {G__5248__a[G__5248__i] = arguments[G__5248__i + 0]; ++G__5248__i;}
+  args = new cljs.core.IndexedSeq(G__5248__a,0,null);
 } 
-return G__6068__delegate.call(this,args);};
-G__6068.cljs$lang$maxFixedArity = 0;
-G__6068.cljs$lang$applyTo = (function (arglist__6072){
-var args = cljs.core.seq(arglist__6072);
-return G__6068__delegate(args);
+return G__5245__delegate.call(this,args);};
+G__5245.cljs$lang$maxFixedArity = 0;
+G__5245.cljs$lang$applyTo = (function (arglist__5249){
+var args = cljs.core.seq(arglist__5249);
+return G__5245__delegate(args);
 });
-G__6068.cljs$core$IFn$_invoke$arity$variadic = G__6068__delegate;
-return G__6068;
+G__5245.cljs$core$IFn$_invoke$arity$variadic = G__5245__delegate;
+return G__5245;
 })()
 ;
 }));
@@ -102,8 +102,8 @@ return G__6068;
  * Returns a list of argument lists representing each invocation of the specified stub.
  */
 speclj.stub.invocations_of = (function speclj$stub$invocations_of(name){
-return cljs.core.map.call(null,cljs.core.second,cljs.core.filter.call(null,(function (p1__6073_SHARP_){
-return cljs.core._EQ_.call(null,name,cljs.core.first.call(null,p1__6073_SHARP_));
+return cljs.core.map.call(null,cljs.core.second,cljs.core.filter.call(null,(function (p1__5250_SHARP_){
+return cljs.core._EQ_.call(null,name,cljs.core.first.call(null,p1__5250_SHARP_));
 }),cljs.core.deref.call(null,speclj.stub._STAR_stubbed_invocations_STAR_)));
 });
 /**

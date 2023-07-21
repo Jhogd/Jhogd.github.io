@@ -4,7 +4,10 @@
             [reagent.dom :as rdom]
             [sample-project.components :as components]))
 
+(defonce state (reagent/atom {}))
+
 (defn ^:export main []
-  (rdom/render [components/main] (js/document.getElementById "app")))
+  (println "Hello, from main!")
+  (rdom/render [components/hello-world] (js/document.getElementById "app")))
 
 (main)
