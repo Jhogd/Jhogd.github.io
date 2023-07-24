@@ -139,7 +139,7 @@
 
 (defn restart-game []
     (update-state-only (return-beginning-board (:state (:board @game-map))))
-    (update-map game-map :player (:user-player (:board @game-map))))
+    (update-map game-map :player :x))
 
 (defn restart-button []
   [:button {:style {:color "blue"}

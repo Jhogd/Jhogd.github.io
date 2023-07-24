@@ -48,12 +48,10 @@
 
   (it "plays AI turn general"
     (with-redefs [play/update-map (stub :update)
-                  alg/process-game-board (stub :player-move)]
-                 (play/play-ai-turn (conj (utility/init-board (utility/->Three-by-three)) {:game-type :ai-vs-ai}) :x :x 3 3))
-    (should-have-invoked :update {:times 1})
-    (should= {:state [:x :e :e :e :e :e :e :e :e], :size 3, :dimension :two, :game-type :ai-vs-ai, :display :gui}
-             (play/play-ai-turn (conj (conj (utility/init-board (utility/->Three-by-three)) {:game-type :ai-vs-ai}) {:display :gui}) :x :x 3 3))
-    (should-have-invoked :player-move {:times 1}))
+                  alg/best-move (constantly 0)]
+    (should= {:state [:x :e :e :e :e :e :e :e :e], :size 3, :dimension :two, :game-type :ai-vs-human, :display :gui}
+             (play/play-ai-turn (conj (conj (utility/init-board (utility/->Three-by-three)) {:game-type :ai-vs-human}) {:display :gui}) :x :o 3 3))
+    (should-have-invoked :update {:times 1})))
 
   (it "generates html for selecting a board"
     (let [board-menu (play/select-board-menu)]
@@ -143,6 +141,20 @@
                  (play/restart-game)
                  (should-have-invoked :beg {:times 1})
                  (should-have-invoked :map {:times 1})
+                 ))
+
+  (it "renders entire menu"
+    (with-redefs [play/select-board-menu (stub :board)
+                  play/select-game-mode (stub :game-mode)
+                  play/select-difficulty (stub :diff)
+                  play/select-player-menu (stub :player)]
+                 (play/render-menu)
+                 (should-have-invoked :board {:times 1})
+                 (should-have-invoked :game-mode {:times 1})
+                 (should-have-invoked :diff {:times 2})
+                 (should-have-invoked :player {:times 1})
+                 (should-contain "[:div nil nil nil nil nil [:button {:on-click #object[Function]} \"Start Game\"]]"
+                                 (str (play/render-menu)))
                  ))
 
   )

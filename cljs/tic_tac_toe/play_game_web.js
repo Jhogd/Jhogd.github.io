@@ -164,7 +164,7 @@ return cljs.core.cst$kw$e;
 tic_tac_toe.play_game_web.restart_game = (function tic_tac_toe$play_game_web$restart_game(){
 tic_tac_toe.play_game_web.update_state_only(tic_tac_toe.play_game_web.return_beginning_board(cljs.core.cst$kw$state.cljs$core$IFn$_invoke$arity$1(cljs.core.cst$kw$board.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(tic_tac_toe.play_game_web.game_map)))));
 
-return tic_tac_toe.play_game_web.update_map(tic_tac_toe.play_game_web.game_map,cljs.core.cst$kw$player,cljs.core.cst$kw$user_DASH_player.cljs$core$IFn$_invoke$arity$1(cljs.core.cst$kw$board.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(tic_tac_toe.play_game_web.game_map))));
+return tic_tac_toe.play_game_web.update_map(tic_tac_toe.play_game_web.game_map,cljs.core.cst$kw$player,cljs.core.cst$kw$x);
 });
 tic_tac_toe.play_game_web.restart_button = (function tic_tac_toe$play_game_web$restart_button(){
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$button,new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$style,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$color,"blue"], null),cljs.core.cst$kw$on_DASH_click,(function (){

@@ -15,14 +15,14 @@ speclj.tags.pass_excludes_QMARK_ = (function speclj$tags$pass_excludes_QMARK_(ex
 if(cljs.core.empty_QMARK_.call(null,excludes)){
 return true;
 } else {
-return cljs.core.not.call(null,cljs.core.some.call(null,(function (p1__26608_SHARP_){
-return cljs.core.contains_QMARK_.call(null,excludes,p1__26608_SHARP_);
+return cljs.core.not.call(null,cljs.core.some.call(null,(function (p1__5200_SHARP_){
+return cljs.core.contains_QMARK_.call(null,excludes,p1__5200_SHARP_);
 }),tags));
 }
 });
 speclj.tags.pass_tag_filter_QMARK_ = (function speclj$tags$pass_tag_filter_QMARK_(var_args){
-var G__26610 = arguments.length;
-switch (G__26610) {
+var G__5202 = arguments.length;
+switch (G__5202) {
 case 1:
 return speclj.tags.pass_tag_filter_QMARK_.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -55,26 +55,26 @@ return cljs.core.PersistentHashSet.EMPTY;
 }
 });
 speclj.tags.tag_sets_for = (function speclj$tags$tag_sets_for(context){
-var context_seq = cljs.core.tree_seq.call(null,(function (p1__26612_SHARP_){
-return (!((p1__26612_SHARP_ == null)));
-}),(function (p1__26613_SHARP_){
-return cljs.core.deref.call(null,p1__26613_SHARP_.children);
+var context_seq = cljs.core.tree_seq.call(null,(function (p1__5204_SHARP_){
+return (!((p1__5204_SHARP_ == null)));
+}),(function (p1__5205_SHARP_){
+return cljs.core.deref.call(null,p1__5205_SHARP_.children);
 }),context);
 return cljs.core.map.call(null,speclj.tags.tags_for,context_seq);
 });
 speclj.tags.context_with_tags_seq = (function speclj$tags$context_with_tags_seq(context){
-var context_seq = cljs.core.tree_seq.call(null,(function (p1__26614_SHARP_){
-return (!((p1__26614_SHARP_ == null)));
-}),(function (p1__26615_SHARP_){
-return cljs.core.deref.call(null,p1__26615_SHARP_.children);
+var context_seq = cljs.core.tree_seq.call(null,(function (p1__5206_SHARP_){
+return (!((p1__5206_SHARP_ == null)));
+}),(function (p1__5207_SHARP_){
+return cljs.core.deref.call(null,p1__5207_SHARP_.children);
 }),context);
-return cljs.core.map.call(null,(function (p1__26616_SHARP_){
-return cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"context","context",-830191113),new cljs.core.Keyword(null,"tag-set","tag-set",-711527597)],[p1__26616_SHARP_,speclj.tags.tags_for.call(null,p1__26616_SHARP_)]);
+return cljs.core.map.call(null,(function (p1__5208_SHARP_){
+return cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"context","context",-830191113),new cljs.core.Keyword(null,"tag-set","tag-set",-711527597)],[p1__5208_SHARP_,speclj.tags.tags_for.call(null,p1__5208_SHARP_)]);
 }),context_seq);
 });
 speclj.tags.describe_filter = (function speclj$tags$describe_filter(var_args){
-var G__26618 = arguments.length;
-switch (G__26618) {
+var G__5210 = arguments.length;
+switch (G__5210) {
 case 0:
 return speclj.tags.describe_filter.cljs$core$IFn$_invoke$arity$0();
 
