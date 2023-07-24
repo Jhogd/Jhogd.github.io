@@ -91,6 +91,7 @@ cljs.core.cst$sym$riter = new cljs.core.Symbol(null,"riter","riter",-237834262,n
 cljs.core.cst$sym$__hash = new cljs.core.Symbol(null,"__hash","__hash",-1328796629,null);
 cljs.core.cst$sym$meta = new cljs.core.Symbol(null,"meta","meta",-1154898805,null);
 cljs.core.cst$sym$_meta = new cljs.core.Symbol(null,"_meta","_meta",-1716892533,null);
+cljs.core.cst$kw$width = new cljs.core.Keyword(null,"width","width",-384071477);
 cljs.core.cst$sym$afn = new cljs.core.Symbol(null,"afn","afn",216963467,null);
 cljs.core.cst$sym$tree = new cljs.core.Symbol(null,"tree","tree",1444219499,null);
 cljs.core.cst$sym$fn = new cljs.core.Symbol(null,"fn","fn",465265323,null);
