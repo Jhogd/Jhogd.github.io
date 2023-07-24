@@ -78,4 +78,4 @@ goog.addDependency("../speclj/report/silent.js", ['speclj.report.silent'], ['clj
 goog.addDependency("../speclj/stub.js", ['speclj.stub'], ['cljs.core']);
 goog.addDependency("../clojure/data.js", ['clojure.data'], ['cljs.core', 'clojure.set']);
 goog.addDependency("../speclj/core.js", ['speclj.core'], ['speclj.run.standard', 'speclj.platform', 'cljs.core', 'speclj.config', 'speclj.report.documentation', 'speclj.tags', 'speclj.results', 'speclj.report.progress', 'speclj.reporting', 'speclj.report.silent', 'speclj.stub', 'speclj.components', 'clojure.string', 'clojure.data', 'speclj.running']);
-goog.addDependency("../tic_tac_toe/web_page_spec.js", ['tic_tac_toe.web_page_spec'], ['reagent.core', 'tic_tac_toe.play_game_web', 'cljs.core', 'speclj.core', 'tic_tac_toe.utility']);
+goog.addDependency("../tic_tac_toe/web_page_spec.js", ['tic_tac_toe.web_page_spec'], ['tic_tac_toe.algorithm', 'reagent.core', 'tic_tac_toe.play_game_web', 'cljs.core', 'speclj.core', 'tic_tac_toe.utility']);
